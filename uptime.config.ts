@@ -26,6 +26,14 @@ const workerConfig: WorkerConfig = {
       expectedCodes: [200, 301, 302],
       timeout: 15000,
     },
+    {
+      id: 'gh-oooiii',
+      name: 'gh.oooiii.cc',
+      method: 'GET',
+      target: 'https://gh.oooiii.cc',
+      expectedCodes: [200],
+      timeout: 15000,
+    },
   ],
 }
 
