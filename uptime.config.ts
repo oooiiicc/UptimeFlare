@@ -26,14 +26,6 @@ const workerConfig: WorkerConfig = {
       expectedCodes: [200, 301, 302],
       timeout: 15000,
     },
-    {
-      id: 'nodewarden',
-      name: 'NodeWarden',
-      method: 'GET',
-      target: 'https://nw.oooiii.cc',
-      expectedCodes: [200, 301, 302],
-      timeout: 15000,
-    },
   ],
 }
 
