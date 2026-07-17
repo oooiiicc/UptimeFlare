@@ -37,10 +37,10 @@ const workerConfig: WorkerConfig = {
     {
       id: 'ca-oooiii',
       name: 'ca.oooiii.cc',
-      method: 'GET',
-      target: 'https://ca.oooiii.cc',
-      expectedCodes: [200, 301, 302],
-      timeout: 15000,
+      method: 'TCP_PING',
+      target: '198.200.42.49:22',
+      tooltip: 'California server SSH',
+      timeout: 10000,
     },
   ],
 }
