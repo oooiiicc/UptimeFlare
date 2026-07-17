@@ -34,14 +34,6 @@ const workerConfig: WorkerConfig = {
       expectedCodes: [200],
       timeout: 15000,
     },
-    {
-      id: 'ca-oooiii',
-      name: 'ca.oooiii.cc',
-      method: 'TCP_PING',
-      target: '198.200.42.49:22',
-      tooltip: 'California server SSH',
-      timeout: 10000,
-    },
   ],
 }
 
