@@ -34,14 +34,6 @@ const workerConfig: WorkerConfig = {
       expectedCodes: [200],
       timeout: 15000,
     },
-    {
-      id: 'ip-oooiii',
-      name: 'ip.oooiii.cc',
-      method: 'GET',
-      target: 'https://ip.oooiii.cc',
-      expectedCodes: [200, 301, 302],
-      timeout: 15000,
-    },
   ],
 }
 
