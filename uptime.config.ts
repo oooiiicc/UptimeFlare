@@ -42,6 +42,14 @@ const workerConfig: WorkerConfig = {
       expectedCodes: [200, 301, 302],
       timeout: 15000,
     },
+    {
+      id: 'ca-oooiii',
+      name: 'ca.oooiii.cc',
+      method: 'TCP_PING',
+      target: 'ca.oooiii.cc:18083',
+      timeout: 15000,
+      tooltip: 'TCP 探测 18083 端口（ca 机器唯一公网开放端口），非 ICMP ping',
+    },
   ],
 }
 
